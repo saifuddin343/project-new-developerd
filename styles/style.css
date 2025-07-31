@@ -294,3 +294,26 @@ nav h2 {
 .footer input::placeholder {
     font-size: 16px;
 }
+.footer2 {
+    background-color: rgba(13, 19, 33, 0.03);
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    padding: 32px;
+}
+.footer2 > div {
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer2 h5 {
+    font-size: 20px;
+    font-weight: 700;
+}
+.icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
